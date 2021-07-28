@@ -9,8 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
-  <title>Avito</title>
+  <title>Avito-card</title>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
     <div class="container">
 
       <div class="navbar">
-        <a href="#" class="logo__link">
+        <a href="index.html" class="logo__link">
           <img class="logo-image" src="img/logo.svg" alt="logo">
         </a>
         <ul class="menu">
@@ -56,99 +57,99 @@
   <section class="page-content container">
 
     <main class="main">
-      <h2 class="main-title">
-        Рекомендации для вас
-      </h2>
-      <div class="cards">
-        <a class="card" href="single.html">
-          <img class="card-image" src="img/card-image.jpg" alt="card photo">
-          <div class="card-header">
-            <h3 class="card-title">
-              Электросамокат
-            </h3>
-            <button class="like">
-              <img src="img/card-like.svg" alt="card like">
-            </button>
+      <div class="content">
+        <h2 class="main-title">
+          Электросамокат kugoo Gx
+        </h2>
+        <!-- Slider main container -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+            class="swiper-container mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
-          <strong class="card-price">
-            10 980 ₽
-          </strong>
-          <p class="card-text">
-            Казань, р-н Ново-Савиновский
-          </p>
-          <p class="card-text">
-            10 июля 11:39
-          </p>
-
-
-        </a>
-        <a class="card" href="single.html">
-          <img class="card-image" src="img/card-image.jpg" alt="card photo">
-          <div class="card-header">
-            <h3 class="card-title">
-              Электросамокат
-            </h3>
-            <button class="like">
-              <img src="img/card-like.svg" alt="card like">
-            </button>
+          <div thumbsSlider="" class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+              </div>
+            </div>
           </div>
-          <strong class="card-price">
-            10 980 ₽
-          </strong>
-          <p class="card-text">
-            Казань, р-н Ново-Савиновский
-          </p>
-          <p class="card-text">
-            10 июля 11:39
-          </p>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
 
+          <!-- If we need navigation buttons -->
 
-        </a>
-        <a class="card" href="single.html">
-          <img class="card-image" src="img/card-image.jpg" alt="card photo">
-          <div class="card-header">
-            <h3 class="card-title">
-              Электросамокат
-            </h3>
-            <button class="like">
-              <img src="img/card-like.svg" alt="card like">
-            </button>
-          </div>
-          <strong class="card-price">
-            10 980 ₽
-          </strong>
-          <p class="card-text">
-            Казань, р-н Ново-Савиновский
-          </p>
-          <p class="card-text">
-            10 июля 11:39
-          </p>
-
-
-        </a>
-        <a class="card" href="single.html">
-          <img class="card-image" src="img/card-image.jpg" alt="card photo">
-          <div class="card-header">
-            <h3 class="card-title">
-              Электросамокат
-            </h3>
-            <button class="like">
-              <img src="img/card-like.svg" alt="card like">
-            </button>
-          </div>
-          <strong class="card-price">
-            10 980 ₽
-          </strong>
-          <p class="card-text">
-            Казань, р-н Ново-Савиновский
-          </p>
-          <p class="card-text">
-            10 июля 11:39
-          </p>
-
-
-        </a>
+        </div>
       </div>
+
+      </div>
+      <div class="author">
+
+
+      </div>
+
+
 
     </main>
     <aside class="sidebar">
@@ -223,7 +224,6 @@
     </aside>
 
   </section>
-
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
