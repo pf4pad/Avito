@@ -13,3 +13,9 @@ var swiper2 = new Swiper(".mySwiper2", {
   },
 });
 
+const menuBtn = document.querySelector('.menu-button');
+const menu = document.querySelector('.navbar-panel');
+menuBtn.addEventListener('click', () => {
+  menu.classList.toggle('is-open');
+  body.style.overflow = "hidden";
+})
